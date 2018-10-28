@@ -1,0 +1,184 @@
+.white-bg {
+  background-color: white;
+}
+
+.red-bg {
+  background-color: red;
+}
+
+.blue-bg {
+  background-color: blue;
+}
+
+.yellow-bg {
+  background-color: yellow;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.container{
+  height: 600px;
+  width: 600px;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.last-ctn {
+  width: 100%;
+  flex-direction: column;
+}
+
+.last1-ctn{
+  display: flex;
+  height: 100px;
+}
+
+.last2-ctn {
+display: flex;
+height: 100px;
+}
+
+
+.row{
+  display: flex;
+  height: 200px;
+}
+.row div{
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+
+.row div:nth-child(1) {
+ width: 3%;
+}
+
+.row div:nth-child(2) {
+  width: 18%;
+}
+
+.row div:nth-child(3) {
+  width: 36%;
+}
+
+.row div:nth-child(4) {
+  width: 43%;
+}
+
+/*container2*/
+
+.row2{
+  display: flex;
+  height: 200px;
+}
+.row2 div{
+border-right: 10px solid black;
+border-bottom: 10px solid black;
+}
+
+.row2 div:nth-child(1){
+  width: 3%;
+}
+
+.row2 div:nth-child(2){
+  width: 18%;
+
+}
+
+.row2 div:nth-child(3){
+  width: 37%;
+}
+
+.row2 div:nth-child(4) {
+  width: 14%;
+}
+
+.row2 div:nth-child(5) {
+  width: 28%;
+}
+
+/*------row3------*/
+
+.row3{
+  display: flex;
+  height: 200px;
+}
+
+.row3  .white-bg {
+  border-right: 10px solid black;
+}
+.row3  .yellow-bg {
+  border-right: 10px solid black;
+}
+.row3  .blue-bg {
+  border-right: 10px solid black;
+}
+.row3  .red-bg {
+  border-right: 10px solid black;
+}
+
+.row3 .last1-ctn div {
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+
+.row3 .last2-ctn div {
+  border-right: 10px solid black;
+}
+
+.row3 .last2-ctn .bg-yellow {
+  border-right: none;
+}
+.row3 .last2-ctn .bg-blue {
+  border-right: none;
+}
+.row3 .last2-ctn .bg-red {
+  border-right: none;
+}
+
+.row3 .last2-ctn .none-bdr {
+  border-right: none;
+}
+
+
+ .row3 .white-bg {
+  width: 3%;
+}
+ .row3 .yellow-bg {
+  width: 3%;
+}
+ .row3 .blue-bg {
+  width: 3%;
+}
+ .row3 .red-bg {
+  width: 3%;
+}
+
+.last1-ctn div:nth-child(1) {
+  width: 18%;
+}
+.last1-ctn div:nth-child(2) {
+  width: 51%;
+}
+.last1-ctn div:nth-child(3) {
+  width: 28%;
+}
+
+.last2-ctn div:nth-child(1) {
+  width: 18%;
+}
+.last2-ctn div:nth-child(2) {
+  width: 51%;
+}
+.last2-ctn div:nth-child(3) {
+  width: 30%;
+}
